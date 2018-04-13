@@ -33,6 +33,7 @@ function getCatName($catId) {
     return !empty($cats[$catId]) ? $cats[$catId] : '';
 }
 
+
 function isYesNo($str) {
     return $str ? '<span style="color:red"> 是</span>' : '<span > 否</span>';
 }
